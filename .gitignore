@@ -1,0 +1,48 @@
+# Secrets
+.env
+.env.*
+.env.local
+
+# Databases / caches
+database/*.db
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Memory dumps / images / large binaries
+dumps/
+results/
+*.raw
+*.dmp
+*.img
+*.mem
+*.bin
+*.ko
+tools/lime.ko
+
+# Python caches / bytecode
+__pycache__/
+*.pyc
+.python-version
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Tests / coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
